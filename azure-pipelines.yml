@@ -9,7 +9,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  demands: Limit -equals DisAbleParallel 
+  demands: Limit -equals DisableParallel 
 
 variables:
   buildConfiguration: 'Release'
